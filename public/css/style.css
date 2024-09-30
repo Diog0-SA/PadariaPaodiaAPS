@@ -32,43 +32,48 @@ body {
                                                                                                 /* PRODUTOS */
 .produtos {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   margin: 0 10% 0 10%;
   padding: 10px;
 }
+
 .produtos > label > img {
-  width: 300px;
-  height: 300px;
+  width: 220px;
+  height: 220px;
   border-radius: 10px;
   border: 6px solid #5c3c21;
 }
 
-.produtos > label > img:hover{
+.produtos > label > img:hover {
   cursor: pointer;
   border: 1px solid black;
 }
 
 .produtos2 {
   display: flex;
-  justify-self: space-evenly;
+  justify-content: center;
   align-items: center;
-  margin: 0 10% 0 11%;
-  width: 100%;
+  margin: 0 10% 0 10%;
+  padding: 10px;
 }
+
 .produtos2 > label > img {
-  width: 300px;
-  height: 300px;
-  margin-right: 40px;
+  width: 220px;
+  height: 220px;
   border-radius: 10px;
   border: 6px solid #5c3c21;
 }
 
-.produtos2 > label > img:hover{
+.produtos2 > label > img:hover {
   cursor: pointer;
   border: 1px solid black;
-
 }
+
+label input {
+  visibility: hidden;
+}
+
                                                                                                 /* BOTÃO */
 #botao{
   width: 400px;
@@ -81,7 +86,7 @@ body {
 }
 
 #botao:hover{
-  background-color: #e1c78c;
+  background-color: #75543B;
   border: 5px solid #5c3c21;
   cursor: pointer;
   font-size: 200%;
